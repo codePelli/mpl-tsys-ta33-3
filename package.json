@@ -1,0 +1,22 @@
+{
+  "name": "marc",
+  "version": "1.0.0",
+  "description": "Example of typescript project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./build/main.js",
+    "build": "tsc",
+    "dev": "tsc -watch"
+  },
+  "keywords": [
+    "npm",
+    "js"
+  ],
+  "author": "Marc Pellicer",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "typescript": "^5.3.2"
+  }
+}
